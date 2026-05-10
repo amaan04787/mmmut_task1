@@ -48,26 +48,14 @@ Random Forest	        - n_estimators=10, criterion="entropy", random_state=0
 -Predictions: Random Forest predictions vs actual values
 
 
-## 📁 Project Structure
-breast-cancer-prediction/
-│
-├── Breast_Cancer.csv          # Dataset
-├── breast_cancer_analysis.py  # Main analysis script
-├── requirements.txt           # Dependencies
-└── README.md                 # This file
 
 ## 🔬 Results Summary
 Model Evaluation on Test Set:
 - Logistic Regression: 92% accuracy
 - Decision Tree: 88% accuracy  
 - Random Forest: 94% accuracy (Best performing)
+
 Key Findings: Random Forest Classifier achieved the highest accuracy, demonstrating robust performance on unseen data.
 
 
-📝 Requirements File
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
 
